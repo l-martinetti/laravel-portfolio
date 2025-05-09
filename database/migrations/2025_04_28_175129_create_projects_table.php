@@ -15,7 +15,7 @@ return new class extends Migration {
 
             $table->string("Name");
             $table->string("Client");
-            $table->dateTime("Time");
+            $table->string("Time");
             $table->string("Brief");
 
             $table->timestamps();
